@@ -1,0 +1,49 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family:"Roboto",sans-serif;
+	background:url('/img/teamwork.jpg') no-repeat center center/cover;
+	
+}
+.container-wrapper{
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	
+}
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 50px;
+	height: 400px;
+	width: 600px;
+	background:lightblue;
+	border-radius: 30px;
+	opacity:0.9;
+}
+h1{
+  font-size: 100px;
+}
+p{
+	font-size: 50px
+}
+.btn{
+	width: 100%;
+	padding: .5rem 3rem;
+	background: #0f0;
+	border: none;
+	border-radius: 10px;
+	margin-bottom:2px;
+	color:#fff;
+	font-weight:bolder;
+}
+.btn:hover{
+	background: #000;
+
+}
