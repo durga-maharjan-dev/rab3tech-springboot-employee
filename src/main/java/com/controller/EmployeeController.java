@@ -49,7 +49,11 @@ public class EmployeeController {
 	public String postEmployeeSignup(@ModelAttribute EmployeeDTO employeeDTO, Model model) {
 		String message = employeeService.postEmployeeSignup(employeeDTO);
 		model.addAttribute("message", message);
+		System.out.println(message);
 		return "employee-signup";
 	}
+	
+	
+	
 
 }
